@@ -11,7 +11,12 @@ public class MathTester {
        SecondNumber = 10;
        System.out.println(FirstWord+SecondWord);
        System.out.println(FirstWord+(FirstNumber+SecondNumber));
-
+       System.out.println("FirstNumber + SecondNumber is "+(FirstNumber+SecondNumber));
+       System.out.println("FirstNumber - SecondNumber is "+ (FirstNumber-SecondNumber));
+       System.out.println("SecondNumber / FirstNumber is "+ (SecondNumber/FirstNumber));
+       System.out.println("FirstNumber * SecondNumber is "+ (FirstNumber*SecondNumber));
+       System.out.println("The modulus of the secondNumber by the firstNumber" +
+       " is "+(SecondNumber%FirstNumber));
 
 
 
